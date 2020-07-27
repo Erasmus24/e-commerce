@@ -1,7 +1,12 @@
 :root{
   --mainBlue:#0277bd;
   --lghtBlue:#81d4fa;
-  --mainWhite:#e1f5fe;
+  --mainWhite:#fafafa;
   --mainDark:#263238;
   --mainYellow:#ffeb3b;
+}
+
+body{
+  font-family: 'Oswald', sans-serif !important;
+  background: var(--mainWhite) !important;
 }
