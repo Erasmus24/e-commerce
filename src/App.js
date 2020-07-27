@@ -4,9 +4,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    <div> 
-     <h1>This is the beginning of great things!!</h1>
-    </div>
+    <React.Fragment>
+      <h1>Worlds Greatest</h1>
+    </React.Fragment>
   );
 }
 
