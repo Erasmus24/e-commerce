@@ -39,5 +39,8 @@ const NavWrapper = styled.nav`
         color: var(--mainWhite) !important;
         font-size: 1.3rem;
         text-transform: capitalize;
+        &:focus{
+            color: var(--lightBlue)!important;
+        }
     }
 `
