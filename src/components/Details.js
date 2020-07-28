@@ -3,8 +3,8 @@ import React, { Component } from 'react'
 export default class Details extends Component {
     render() {
         return (
-            <div>
-                <h3>These are the details</h3>
+            <div >
+                <h1 className='text-primary'>These are the details</h1>
             </div>
         )
     }
