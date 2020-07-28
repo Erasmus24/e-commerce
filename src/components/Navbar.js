@@ -30,6 +30,8 @@ export default class Navbar extends Component {
     }
 }
 
+//styled components
+
 const ButtonContainer = styled.button`
     text-transform: capitalize;
     font-size: 1.4rem;
