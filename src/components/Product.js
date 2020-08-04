@@ -31,7 +31,7 @@ export default class Product extends Component {
                 in inCart
               </p>
             ) : (
-                <i className="fas fa-cart-plus" />
+              <i className="fas fa-cart-plus" />
             )}
           </div>
         </div>
