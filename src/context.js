@@ -8,11 +8,12 @@ class ProductProvider extends Component {
     state = {
         products:storeProducts,
         detailProduct:detailProduct
-    }
+    };
+    
     render() {
         return (
             <ProductContext.Provider value={{
-                ...this.state
+
             }}>
                 {this.props.children}
             </ProductContext.Provider>

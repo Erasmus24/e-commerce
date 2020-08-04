@@ -16,11 +16,12 @@ export default class ProductList extends Component {
                     <div className='container'>
                     <Title name='our' title='products'/>
                         <div className='row'>
-                            <ProductConsumer>  {/*from the context.js*/}
-                                {(value)=>{
+                            <ProductConsumer>
+                                { value => {
                                     return <h1>{value}</h1>;
                                 }}
                             </ProductConsumer>
+                            
                         </div>
                         
                     </div>
