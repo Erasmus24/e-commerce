@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Title from './Title';
 import Product from './Product';
 import {storeProducts} from '../Data';
+import {ProductConsumer} from '../context';
 
 export default class ProductList extends Component {
     state={
@@ -13,8 +14,13 @@ export default class ProductList extends Component {
             <React.Fragment>
                 <div className='py-5'> {/*py means padding bottom*/}
                     <div className='container'>
+                    <Title name='our' title='products'/>
                         <div className='row'>
-                            <Title name='our' title='products'/>
+                            <ProductConsumer>  {/*from the context.js*/}
+                                {(value)=>{
+                                    return <h1>{value}</h1>;
+                                }}
+                            </ProductConsumer>
                         </div>
                         
                     </div>

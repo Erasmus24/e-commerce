@@ -6,13 +6,13 @@ const ProductContext = React.createContext();
 class ProductProvider extends Component {
     render() {
         return (
-            <ProductContext.Provider value='Hello from context'>
+            <ProductContext.Provider value='This is from the context.js'>
                 {this.props.children}
             </ProductContext.Provider>
         )
     }
 }
 
-ProductConsumer = ProductContext.Consumer;
+const ProductConsumer = ProductContext.Consumer;
 
 export {ProductProvider, ProductConsumer};
