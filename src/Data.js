@@ -85,7 +85,19 @@ export const storeProducts = [
         total: 0
         
     },
-];                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+];   
+
+export const detailProduct = {
+    id: 1,
+    title: 'Armani',
+    img: 'abdul/armani.jpg',
+    price: 330,
+    Company: 'Armani',
+    info: 'blah fjry asuiro ieyfgrnnn juuethsdg  hhjjsj',
+    inCart: 'false',
+    count:0,
+    total: 0
+};
 
 
 
