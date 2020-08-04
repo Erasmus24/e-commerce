@@ -5,10 +5,21 @@ import { ProductConsumer } from '../context';
 
 export default class Product extends Component {
     render() {
+        const { id, Title, img, price, inCart } = this.props.product;
         return (
-            <div>
-                <h2>Hello to the products !!!!</h2>
-            </div>
+            <ProductWrapper className='col-9 mx-auto col-md-6 col-lg-3 my-3'>
+                <div className='card'>
+                    <div className='img-container pd-5' onClick={ console.log('card in img-container has been clicked')}>
+                        <Link to='/details'>
+                            <img src={img} alt='product' className='card-img-top'/>
+                        </Link>
+                    </div>
+                </div>
+            </ProductWrapper>
         )
     }
 }
+
+const ProductWrapper = styled.div `
+
+`
