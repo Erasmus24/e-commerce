@@ -12,21 +12,22 @@ export default class ProductList extends Component {
         console.log(this.state.products);
         return (
             <React.Fragment>
-                <div className='py-5'> {/*py means padding bottom*/}
-                    <div className='container'>
-                    <Title name='our' title='products'/>
-                        <div className='row'>
-                            <ProductConsumer>
-                                { value => {
-                                    return <h1>{value}</h1>;
-                                }}
-                            </ProductConsumer>
-                            
-                        </div>
+            <div className='py-5'> {/*py means padding bottom*/}
+                <div className='container'>
+                <Title name='our' title='products'/>
+                    <div className='row'>
+                        <ProductConsumer>
+                            { value => {
+                                console.log(value);
+                            }}
+                        </ProductConsumer>
                         
                     </div>
+                    
                 </div>
-            </React.Fragment>
+            </div>
+        </React.Fragment>
+
             // <Product/>
         )
     }
