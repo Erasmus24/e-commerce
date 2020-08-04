@@ -9,7 +9,6 @@ export default class ProductList extends Component {
         products: storeProducts
     }
     render() {
-        console.log(this.state.products);
         return (
             <React.Fragment>
             <div className='py-5'> {/*py means padding bottom*/}
@@ -18,7 +17,9 @@ export default class ProductList extends Component {
                     <div className='row'>
                         <ProductConsumer>
                             { value => {
-                                console.log(value);
+                                return value.products.map( product =>{
+                                    return <Product product ={product} />;
+                                });
                             }}
                         </ProductConsumer>
                         
@@ -28,7 +29,7 @@ export default class ProductList extends Component {
             </div>
         </React.Fragment>
 
-            // <Product/>
+            // 
         )
     }
 }

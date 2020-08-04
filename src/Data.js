@@ -3,7 +3,7 @@ import Title from "./components/Title";
 export const storeProducts = [
     {
         id: 1,
-        title: 'Armani',
+        Title: 'Armani',
         img: 'abdul/armani.jpg',
         price: 330,
         Company: 'Armani',
@@ -15,7 +15,7 @@ export const storeProducts = [
     },
     {
         id: 2,
-        title: 'Channel',
+        Title: 'Channel',
         img: 'abdul/channel.jpg',
         price: 330,
         Company: 'Channel',
@@ -27,7 +27,7 @@ export const storeProducts = [
     },
     {
         id: 3,
-        title: 'Colgne12',
+        Title: 'Colgne12',
         img: 'abdul/colgne12.jpg',
         price: 330,
         Company: 'Colonge12',
@@ -39,7 +39,7 @@ export const storeProducts = [
     },
     {
         id: 4,
-        title: 'Mercedes Benz ',
+        Title: 'Mercedes Benz ',
         img: 'abdul/mercedsBenz.jpg',
         price: 330,
         Company: 'Mercedes Benz',
@@ -51,7 +51,7 @@ export const storeProducts = [
     },
     {
         id: 5,
-        title: 'Another1 ',
+        Title: 'Another1 ',
         img: 'abdul/o.31508.jpg',
         price: 330,
         Company: 'Another1',
@@ -63,7 +63,7 @@ export const storeProducts = [
     },
     {
         id: 6,
-        title: 'Polo ',
+        Title: 'Polo ',
         img: 'abdul/polo.jpg',
         price: 330,
         Company: 'Polo',
@@ -75,7 +75,7 @@ export const storeProducts = [
     },
     {
         id: 7,
-        title: 'Gucci',
+        Title: 'Gucci',
         img: 'abdul/gucci.jpg',
         price: 330,
         Company: 'Gucci',
@@ -89,7 +89,7 @@ export const storeProducts = [
 
 export const detailProduct = {
     id: 1,
-    title: 'Armani',
+    Title: 'Armani',
     img: 'abdul/armani.jpg',
     price: 330,
     Company: 'Armani',
