@@ -21,15 +21,11 @@ export default class ProductList extends Component {
                                     return <Product key={product.id} product ={product} />;
                                 });
                             }}
-                        </ProductConsumer>
-                        
-                    </div>
-                    
+                        </ProductConsumer>  
+                    </div> 
                 </div>
             </div>
         </React.Fragment>
-
-            // 
         )
     }
 }
