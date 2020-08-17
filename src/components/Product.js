@@ -98,4 +98,8 @@ const ProductWrapper = styled.div`
   .img-container:hover .card-btn{
     transform:translate(0, 0);
   }
+  .card-btn:hover{
+    color:var(--mainBlue);
+    cursor:pointer;
+  }
 `;
