@@ -82,4 +82,9 @@ const ProductWrapper = styled.div`
   .img-container:hover .card-img-top {
     transform: scale(1.2);
   }
+  .card-btn {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
 `;
