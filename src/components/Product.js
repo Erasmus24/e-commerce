@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 import { ProductConsumer } from "../context";
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 
 export default class Product extends Component {
   render() {
@@ -54,6 +54,7 @@ const ProductWrapper = styled.div`
   .card {
     border-color: transparent;
     transition: all 1s linear;
+    
   }
   .card-img-top {
     max-height: 300px;
@@ -93,14 +94,14 @@ const ProductWrapper = styled.div`
     color: var(--mainWhite);
     font-size: 1.4rem;
     border-radius: 0.5rem 0 0 0;
-    transform:translate(100%, 100%);
+    transform: translate(100%, 100%);
     transition: all 1s linear;
   }
-  .img-container:hover .card-btn{
-    transform:translate(0, 0);
+  .img-container:hover .card-btn {
+    transform: translate(0, 0);
   }
-  .card-btn:hover{
-    color:var(--mainBlue);
-    cursor:pointer;
+  .card-btn:hover {
+    color: var(--mainBlue);
+    cursor: pointer;
   }
 `;
