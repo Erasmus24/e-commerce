@@ -14,10 +14,10 @@ export const storeProducts = [
   },
   {
     id: 2,
-    title: "Channel",
-    img: "abdul/channel.jpg",
+    title: "Bleu de Chanel",
+    img: "abdul/chanel-bleu.jpg",
     price: 930,
-    Company: "Channel",
+    Company: "Bleu de Channel",
     info: "blah fjry asuiro ieyfgrnnn juuethsdg  hhjjsj",
     inCart: false,
     count: 0,
