@@ -5,12 +5,12 @@ const ProductContext = React.createContext();
 
 class ProductProvider extends Component {
   state = {
-    products: storeProducts,
+    products: [],
     detailProduct: detailProduct,
   };
 
-  componentDidMount(){
-    this.setProducts()
+  componentDidMount() {
+    this.setProducts();
   }
 
   setProducts = () => {
