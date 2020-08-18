@@ -24,6 +24,7 @@ export default class Product extends Component {
                   disabled={inCart ? true : false} //CONDITIONAL RENDERING!!!!
                   onClick={() => {
                     value.addToCart(id);
+                    value.openModal(id);
                   }}
                 >
                   {inCart ? ( //CONDITIONAL RENDERING!!!!

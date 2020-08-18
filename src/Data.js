@@ -47,10 +47,10 @@ export const storeProducts = [
   },
   {
     id: 5,
-    title: "Another1 ",
+    title: "Chanel ",
     img: "abdul/o.31508.jpg",
     price: 564,
-    company: "Another1",
+    company: "Chanel",
     info: "blah fjry asuiro ieyfgrnnn juuethsdg  hhjjsj",
     inCart: false,
     count: 0,
