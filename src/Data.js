@@ -141,7 +141,8 @@ export const detailProduct = {
   img: "abdul/armani.jpg",
   price: 2330,
   company: "Armani",
-  info: "blah fjry asuiro ieyfgrnnn juuethsdg  hhjjsj",
+  info:
+    "blah fjry asuiro ieyfgrnnn juuethsdg  hhjjsj thed nhtu ytsde gjhjiy nkmityt terwddfg thuf hiju. jhryt uyg hg rre tygyg rhhthvg hiuty hhdgtrfbvh knjyhtg ",
   inCart: false,
   count: 0,
   total: 0,
