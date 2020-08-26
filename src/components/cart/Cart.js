@@ -9,7 +9,8 @@ export default class Cart extends Component {
     return (
       <section>
         <ProductConsumer>
-          {(value) => {  //Conditional rendering for if the cart is empty!!
+          {(value) => {
+            //Conditional rendering for if the cart is empty!!
             const { cart } = value;
             if (cart.length > 0) {
               return (
@@ -21,7 +22,6 @@ export default class Cart extends Component {
             }
           }}
         </ProductConsumer>
-
         <EmptyCart />
       </section>
     );
