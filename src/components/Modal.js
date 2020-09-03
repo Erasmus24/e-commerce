@@ -26,7 +26,7 @@ export default class Modal extends Component {
                       {/* This is where you must put the inline style for the images of the moadal!!!
                        eg:style={{ width: "5rem", height: "5rem" }}*/}
 
-                      <img src={img} className="img-fluid" alt="product" /> 
+                      <img src={img} className="img-fluid" alt="product" style={{ width: "80rem", height: "20rem" }} /> 
                       <h4>{title}</h4>
                       <h5 className="text-muted">price: R{price}</h5>
                       <Link to="/">
