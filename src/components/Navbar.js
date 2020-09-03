@@ -6,7 +6,10 @@ import styled from "styled-components";
 export default class Navbar extends Component {
   render() {
     return (
-      <NavWrapper className="navbar navbar-expand-sm  navbar-dark px-sm-5"style={{position:'sticky', top:'0'}} >
+      <NavWrapper
+        className="navbar navbar-expand-sm  navbar-dark px-sm-5"
+        style={{ position: "sticky", top: "0" }}
+      >
         <Link to="/" className="text-warning">
           <i className="fas fa-chess-rook"></i>
         </Link>
@@ -30,11 +33,9 @@ export default class Navbar extends Component {
   }
 }
 
-
-
 const NavWrapper = styled.nav`
   background: var(--mainBlue);
-  z-index:100;
+  z-index: 100;
   .nav-link {
     color: var(--mainWhite) !important;
     font-size: 1.3rem;
